@@ -1,0 +1,44 @@
+/* include header.css */
+
+
+
+/* main */
+
+.main {
+  overflow: auto;
+  margin-top: 40px;
+}
+
+.inner_container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.image {
+  display: inline-block;
+  float: left;
+  margin: 0 40px 20px 0;
+}
+
+.image img {
+  border-radius: 5px;
+  width: 525px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  letter-spacing: 2px;
+  font-size: 1.3em;
+  color: rgb(160, 153, 78);
+  display: inline;
+}
+
+.philosophy {
+  float: left;
+  padding-bottom: 40px;
+}
+
+p {
+  color: rgb(69, 69, 69);
+  text-align: justify;
+}

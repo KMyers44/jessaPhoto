@@ -1,0 +1,71 @@
+/* include header.css */
+
+
+
+/* main */
+
+.main {
+  overflow: auto;
+  width: 95%;
+  margin: 40px auto;
+}
+
+.image {
+  display: inline-block;
+  float: left;
+  margin: 25px 30px 30px;
+}
+
+.image img {
+  border-radius: 5px;
+}
+
+h3 {
+  letter-spacing: 2px;
+  font-size: 2.3em;
+  color: rgb(160, 153, 78);
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.4;
+  width: 95%;
+  text-align: justify;
+  color: rgb(69, 69, 69);
+}
+
+.bottom_image img {
+  width: 500px;
+  height: 350px;
+  border-radius: 5px;
+}
+
+.flex {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  margin: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

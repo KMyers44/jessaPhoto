@@ -1,0 +1,22 @@
+/* include header.css */
+
+.story_container {
+  width: 90%;
+  margin: 20px auto;
+}
+
+h2 {
+  letter-spacing: 2px;
+  /*font-size: 1.3em;*/
+  color: rgb(160, 153, 78);
+  text-align: center;
+}
+
+p {
+  color: rgb(69, 69, 69);
+  text-align: justify;
+}
+
+p:last-child {
+  padding-bottom: 40px;
+}

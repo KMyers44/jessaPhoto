@@ -1,0 +1,118 @@
+body {
+  /*background-color: rgb(168, 199, 170);*/
+  background-image: url('../images/green_cup.png');
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+  width: 95%;
+  background-color: white;
+  margin: 30px auto 50px;
+  border: 2px solid rgb(255, 155, 0);
+  border-radius: 5px;
+}
+
+/* header and navbar */
+.logo {
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+}
+
+.logo h1 {
+  letter-spacing: 5px;
+  font-size: 2.4em;
+  color: rgb(128, 41, 41);
+  margin-bottom: 10px;
+}
+
+.logo h2 {
+  color: rgb(128, 41, 41);
+  margin: 2px 0 30px;
+  font-size: .8em;
+}
+
+.menu {
+  list-style-type: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 40px 20px;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0 15px 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: rgb(255, 155, 0);
+}
+
+.navbar a:hover {
+  color: rgb(242, 196, 128);
+}
+
+.blog {
+  position: relative;
+}
+
+.blog:after {
+  content: "\25bc";
+  font-size: 0.3em;
+  display: block;
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  color: rgb(249, 202, 130);
+}
+
+.blog_dropdown {
+  display: none;
+  position: absolute;
+  background: rgb(250, 237, 218);
+  padding: 15px 0 5px;
+  border-radius: 5px;
+}
+
+.blog:hover > .blog_dropdown {
+  display: block;
+}
+
+.blog > .blog_dropdown li {
+  text-transform: none;
+  float: left;
+}
+
+.blog_dropdown a:hover {
+  color: rgb(197, 148, 58);
+}
+
+hr {
+width: 80%;
+border-top: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
