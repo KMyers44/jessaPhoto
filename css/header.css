@@ -13,37 +13,23 @@ body {
 }
 
 /* header and navbar */
-.logo {
-  text-align: center;
-  padding-top: 10px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 2em;
-}
-
-.logo h1 {
-  letter-spacing: 5px;
-  font-size: 2.4em;
-  color: rgb(128, 41, 41);
-  margin-bottom: 10px;
-}
-
-.logo h2 {
-  color: rgb(128, 41, 41);
-  margin: 2px 0 30px;
-  font-size: .8em;
-}
 
 .menu {
-  list-style-type: none;
-  text-align: center;
   text-transform: uppercase;
-  padding: 0 40px 20px;
+  position: absolute;
+  top: 440px;
+  left: 220px;
 }
 
 .menu li {
   display: inline-block;
-  padding: 0 15px 10px;
+  padding: 0 10px 10px;
+  font-size: 0.9em;
 }
+/*.menu li {
+  display: inline-block;
+  padding: 0 15px 10px;
+}*/
 
 .menu li a {
   text-decoration: none;
@@ -90,8 +76,9 @@ body {
 }
 
 hr {
-width: 80%;
-border-top: 1px;
+  width: 90%;
+  border-bottom: 1px solid rgb(255, 155, 0);
+  margin-top: -3px;
 }
 
 
