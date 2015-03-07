@@ -51,13 +51,11 @@ img#logo_name {
 
 .menu li a {
   text-decoration: none;
-  color: rgb(255, 155, 0);
-  font-weight: bold;
+  color: rgb(255, 165, 0);
 }
 
-
 .navbar a:hover {
-  color: rgb(242, 196, 128);
+  color: rgb(61, 151, 175);
 }
 
 .blog {
