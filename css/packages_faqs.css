@@ -32,13 +32,13 @@ p:last-child  {
   padding-bottom: 50px;
 }
 
-a {
+p a {
   text-decoration: none;
   color: rgb(240, 150, 85);
   font-weight: bold;
 }
 
-a:hover {
+p a:hover {
   color: rgb(144, 23, 144);
   border-bottom: 1px solid;
 }

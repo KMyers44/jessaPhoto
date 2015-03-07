@@ -5,6 +5,12 @@
   margin: 20px auto;
 }
 
+/*img.story_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+
 h2 {
   letter-spacing: 2px;
   /*font-size: 1.3em;*/
@@ -20,3 +26,15 @@ p {
 p:last-child {
   padding-bottom: 40px;
 }
+
+/*.flexslider {
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.slides {
+  padding-left: 0;
+}
+*/

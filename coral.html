@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Birth Stories - Morning Star</title>
+    <title>Birth Stories - Mountain Star</title>
 
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/birth_stories.css">
 
+    <!-- flexslider by woothemes -->
+    <link rel="stylesheet" type="text/css" href="css/flexslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.3.0/jquery.flexslider-min.js"></script>
+
     <!-- Google fonts 'Raleway' and 'Lato' -->
     <link href='http://fonts.googleapis.com/css?family=Lato|Raleway' rel='stylesheet' type='text/css'>
+
+
+    <script type="text/javascript" charset="utf-8">
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+          animation: "slide",
+          controlNav: "thumbnails"
+        });
+      });
+    </script>
 
   </head>
 
@@ -18,7 +33,8 @@
     <!-- header and navbar -->
       <div class="header">
         <div class="logo">
-          <img src="images/logo1.jpg">
+         <img id="logo_star" src="images/LogoStar.jpg" alt="logo">
+          <img id="logo_name" src="images/LogoName.jpg" alt="Morning Star">
         </div>
         <nav class="navbar">
           <ul class="menu">
@@ -43,6 +59,23 @@
 
       <!-- main -->
       <div class="story_container">
+        <div class="flexslider">
+          <ul class="slides">
+            <li data-thumb="slide1-thumb.jpg">
+              <img src="images/CoralStory07.jpg" />
+            </li>
+            <li data-thumb="slide2-thumb.jpg">
+              <img src="images/Archive/CoralStory01.jpg" />
+            </li>
+            <li data-thumb="slide3-thumb.jpg">
+              <img src="images/Archive/CoralStory03.jpg" />
+            </li>
+            <li data-thumb="slide4-thumb.jpg">
+              <img src="images/Archive/CoralStory08.jpg" />
+            </li>
+          </ul>
+        </div>
+        <!-- <img src="images/CoralStory07.jpg" alt="Coral"> -->
         <h2>The Birth Story of Coral Jean</h2>
 
         <p>I held a smile inside my cheek. It was a small smile, and secret. It was the smile of a woman who feels the world shifting, not outside, but within. I sat quietly through the first few
@@ -72,5 +105,11 @@
       </div>
 
     </div>
+
+    <footer>
+      <p class="qoute">"There is a secret in our culture, and it's not that birth is painful. It's that women are strong." </p>
+      <p class="author"> -Laura Stavoe Harm</p>
+    </footer>
+
   </body>
 </html>
