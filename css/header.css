@@ -1,6 +1,5 @@
 body {
   background-color: rgb(244, 237, 210);
-  /*background-image: url('../images/green_cup.png');*/
   font-family: 'Lato', sans-serif;
 }
 
@@ -24,30 +23,27 @@ img#logo_star  {
 img#logo_name {
   padding-top: -54px;
   position: absolute;
-  left: 370px;
-  top: 75px;
+  left: 373px;
+  top: 63px;
+  width: 600px;
 }
+
 
 /* header and navbar */
 
 .menu {
   text-transform: uppercase;
   position: absolute;
-  top: 360px;
-  left: 290px;
-  margin: 0 auto;
+  top: 345px;
+  left: 247px;
 }
 
 .menu li {
   display: inline-block;
-  padding: 0 15px 10px;
+  padding: 0 10px 10px;
   font-size: 0.9em;
   letter-spacing: 1px;
 }
-/*.menu li {
-  display: inline-block;
-  padding: 0 15px 10px;
-}*/
 
 .menu li a {
   text-decoration: none;
@@ -67,8 +63,8 @@ img#logo_name {
   font-size: 0.3em;
   display: block;
   position: absolute;
-  top: 20%;
-  right: 5%;
+  top: 15%;
+  right: 0%;
   color: rgb(249, 202, 130);
 }
 
@@ -90,7 +86,7 @@ img#logo_name {
 }
 
 .blog_dropdown a:hover {
-  color: rgb(197, 148, 58);
+  color: rgb(61, 151, 175);
 }
 
 hr {
@@ -121,6 +117,36 @@ p.author {
 
 
 
+
+
+
+<style>
+
+
+@media (max-width: 1024px) {
+  img#logo_star {
+    width: 60%;
+  }
+
+  img#logo_name {
+    left: 241px;
+    top: 35px;
+    width: 465px;
+    }
+
+  .menu {
+    top: 245px;
+    left: 121px;
+  }
+
+  .menu li {
+    font-size: 0.8em;
+  }
+
+}
+
+
+</style>
 
 
 
