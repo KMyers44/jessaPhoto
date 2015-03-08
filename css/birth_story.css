@@ -37,11 +37,12 @@ h3 {
   font-size: 1.3em;
   color: rgb(160, 153, 78);
   text-align: center;
+  padding-top: 30px;
 }
 
 .story img {
-  width: 150px;
-  height: 100px;
+  width: 100%;
+  height: auto;
   border-radius: 5px;
 }
 

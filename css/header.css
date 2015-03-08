@@ -21,11 +21,9 @@ img#logo_star  {
 }
 
 img#logo_name {
-  padding-top: -54px;
-  position: absolute;
-  left: 373px;
-  top: 63px;
-  width: 600px;
+  float: right;
+  padding-top: 45px;
+  width: 60%;
 }
 
 
@@ -33,9 +31,10 @@ img#logo_name {
 
 .menu {
   text-transform: uppercase;
-  position: absolute;
-  top: 345px;
-  left: 247px;
+  clear: both;
+  width: 70%;
+  margin: 0 auto 15px;
+  text-align: center;
 }
 
 .menu li {
@@ -120,23 +119,20 @@ p.author {
 
 
 
-<style>
 
 
-@media (max-width: 1024px) {
+@media (min-width: 979px) and (max-width: 1024px) {
   img#logo_star {
-    width: 60%;
+    width: 30%;
   }
 
   img#logo_name {
-    left: 241px;
-    top: 35px;
-    width: 465px;
+    width: 45%;
+    padding: 55px 181px 0 0;
     }
 
   .menu {
-    top: 245px;
-    left: 121px;
+    width: 80%;
   }
 
   .menu li {
@@ -145,8 +141,27 @@ p.author {
 
 }
 
+@media (min-width: 768px) and (max-width: 978px) {
+  img#logo_star {
+    width: 30%;
+  }
 
-</style>
+  img#logo_name {
+    width: 45%;
+    padding: 60px 140px 0 0;
+  }
+
+  .menu {
+    width: 90%
+  }
+
+  .menu li {
+    font-size: 0.7em;
+  }
+
+}
+
+
 
 
 
