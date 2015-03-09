@@ -73,6 +73,7 @@ img#logo_name {
   background: rgb(250, 237, 218);
   padding: 15px 0 5px;
   border-radius: 5px;
+  z-index: 5;
 }
 
 .blog:hover > .blog_dropdown {
