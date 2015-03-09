@@ -16,7 +16,7 @@
   height: 150px;
   width: 150px;
   /*background-color: rgb(247, 236, 219);*/
-  padding: 25px;
+  padding: 20px;
   margin: 20px 20px 50px;
   /*border-radius: 5px;
   border: 1px solid rgb(252, 218, 156);*/
@@ -27,8 +27,9 @@
 }
 
 .story:hover {
-  box-shadow: 1px 1px 1px 3px rgb(236, 220, 217);
+  box-shadow: 1px 1px 3px 2px darkgray;
   border-radius: 5px;
+  transform: scale(1.1);
   transition: .2s ease;
 }
 
