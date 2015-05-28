@@ -4,6 +4,11 @@
 
 /* main */
 
+.inner-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
 .main {
   overflow: auto;
   width: 95%;
@@ -13,11 +18,13 @@
 .image {
   display: inline-block;
   float: left;
-  margin: 25px 30px 30px;
+  margin: 20px 20px 0 0;
 }
 
 .image img {
   border-radius: 5px;
+  font-size: 0.7em;
+  width: 100%;
 }
 
 h3 {
@@ -31,12 +38,11 @@ h3 {
 
 p {
   line-height: 1.4;
-  width: 95%;
   text-align: justify;
   color: rgb(69, 69, 69);
 }
 
-.bottom_image img {
+.bottom-image img {
   width: 500px;
   height: 350px;
   border-radius: 5px;

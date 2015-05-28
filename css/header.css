@@ -4,7 +4,7 @@ body {
 }
 
 .wrapper {
-  width: 95%;
+  width: 90%;
   background-color: white;
   margin: 30px auto 50px;
   border: 2px solid rgb(255, 155, 0);
@@ -16,14 +16,17 @@ body {
   padding-bottom: 15px;
 }
 
-img#logo_star  {
-  margin: 10px;
+img#logo-star  {
+    margin: 10px 0 0 10px;
+    width: 32%;
 }
 
-img#logo_name {
+img#logo-name {
   float: right;
-  padding-top: 45px;
   width: 60%;
+  position: relative;
+  width: 45%;
+  padding: 65px 181px 0 0;
 }
 
 
@@ -33,13 +36,14 @@ img#logo_name {
   text-transform: uppercase;
   clear: both;
   width: 70%;
-  margin: 0 auto 15px;
+  margin: 0 auto;
   text-align: center;
+  padding-left: 0;
 }
 
 .menu li {
   display: inline-block;
-  padding: 0 10px 10px;
+  padding: 0 20px 10px;
   font-size: 0.9em;
   letter-spacing: 1px;
 }
@@ -50,14 +54,16 @@ img#logo_name {
 }
 
 .navbar a:hover {
-  color: rgb(61, 151, 175);
+  color: rgb(202, 90, 9);
 }
 
-.blog {
+.blog,
+.photo {
   position: relative;
 }
 
-.blog:after {
+.blog:after,
+.photo:after {
   content: "\25bc";
   font-size: 0.3em;
   display: block;
@@ -67,26 +73,32 @@ img#logo_name {
   color: rgb(249, 202, 130);
 }
 
-.blog_dropdown {
+.photo:after {
+  position: absolute;
+  top: 45%;
+  right: 0%;
+}
+
+.blog-dropdown {
   display: none;
   position: absolute;
   background: rgb(250, 237, 218);
   padding: 15px 0 5px;
-  border-radius: 5px;
+  border-radius: 2px;
   z-index: 5;
 }
 
-.blog:hover > .blog_dropdown {
+.blog:hover > .blog-dropdown {
   display: block;
 }
 
-.blog > .blog_dropdown li {
+.blog > .blog-dropdown li {
   text-transform: none;
   float: left;
 }
 
-.blog_dropdown a:hover {
-  color: rgb(61, 151, 175);
+.blog-dropdown a:hover {
+  color: rgb(202, 90, 9);
 }
 
 hr {
@@ -123,11 +135,11 @@ p.author {
 
 
 @media (min-width: 979px) and (max-width: 1024px) {
-  img#logo_star {
+  img#logo-star {
     width: 30%;
   }
 
-  img#logo_name {
+  img#logo-name {
     width: 45%;
     padding: 55px 181px 0 0;
     }
@@ -143,11 +155,11 @@ p.author {
 }
 
 @media (min-width: 768px) and (max-width: 978px) {
-  img#logo_star {
+  img#logo-star {
     width: 30%;
   }
 
-  img#logo_name {
+  img#logo-name {
     width: 45%;
     padding: 60px 140px 0 0;
   }
@@ -157,8 +169,16 @@ p.author {
   }
 
   .menu li {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
+
+  @media (max-width: 767px) {
+    .menu li {
+      padding: 0px 10px 10px;
+      font-size: 0.7em;
+    }
+  }
+
 
 }
 
