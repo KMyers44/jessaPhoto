@@ -19,7 +19,7 @@
 .image {
   display: inline-block;
   float: left;
-  margin: 0 40px 20px 0;
+  margin-right: 15px;
   width: 60%;
 }
 

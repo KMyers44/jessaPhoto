@@ -1,15 +1,8 @@
-/* include header.css */
-
 
 .main-container {
-  width: 85%;
+  width: 75%;
   margin: 0 auto;
   color: rgb(69, 69, 69);
-}
-
-.main-container hr {
-  width: 100%;
-  border-bottom: 1px solid rgb(255, 155, 0);
 }
 
 .main-container h1 {
@@ -23,32 +16,32 @@
 h2 {
   color: rgb(160, 153, 78);
   font-size: 1.3em;
+  text-align: center;
+  padding-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+.paragraph {
+  width: 75%;
+  margin: 0 auto;
 }
 
 p {
   text-align: justify;
+  line-height: 1.6;
 }
 
 p:last-child  {
   padding-bottom: 50px;
 }
 
-p a {
+h2 a {
   text-decoration: none;
   color: rgb(240, 150, 85);
   font-weight: bold;
 }
 
-p a:hover {
+h2 a:hover {
   color: rgb(202, 90, 9);
   border-bottom: 1px solid;
 }
-
-/* packages specific */
-
-h3 {
-  margin-top: 60px;
-  color: rgb(148, 83, 83);
-}
-
-
