@@ -35,7 +35,7 @@ img#logo-name {
 .menu {
   text-transform: uppercase;
   clear: both;
-  width: 70%;
+  width: 71%;
   margin: 0 auto;
   text-align: center;
   padding-left: 0;
@@ -108,6 +108,34 @@ hr {
   margin-top: -3px;
 }
 
+/* menu icon */
+.menu-selector {
+  float: right;
+  padding: 5px 25px 0 0;
+  display: none;
+}
+
+.menu-selector a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(69, 69, 69);
+}
+
+.border-menu {
+  position: relative;
+  padding-left: 1.25em;
+  float: right;
+}
+.border-menu:before {
+  content: "";
+  position: absolute;
+  top: 0.3em;
+  right: 0;
+  width: 1em;
+  height: 0.125em;
+  border-top: 0.375em double #000;
+  border-bottom: 0.125em solid #000;
+}
 
 /* ----- footer ----- */
 
@@ -174,16 +202,33 @@ p.author {
   .menu li {
     font-size: 0.8em;
   }
+}
 
-  @media (max-width: 767px) {
-    .menu li {
-      padding: 0px 10px 10px;
-      font-size: 0.7em;
-    }
+@media (max-width: 767px) {
+  .menu li {
+    padding: 0px 10px 10px;
+    font-size: 0.7em;
   }
 
+  img#logo-name {
+    position: relative;
+    width: 45%;
+    margin: 43px auto;
+    padding: 5px 85px 0 0;
+    display: inline-block;
+  }
 
+  .menu {
+    display: none;
+  }
+
+  .menu-selector {
+    display: block;
+  }
 }
+
+
+
 
 
 

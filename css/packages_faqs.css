@@ -47,8 +47,9 @@ p a:hover {
 /* packages specific */
 
 h3 {
-  margin-top: 60px;
-  color: rgb(148, 83, 83);
+  margin-top: 40px;
+  color: rgb(208, 152, 112);
+  font-size: 1.1em;
 }
 
 
