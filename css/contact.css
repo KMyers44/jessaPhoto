@@ -1,16 +1,16 @@
 
 .main-container {
-  width: 75%;
   margin: 0 auto;
   color: rgb(69, 69, 69);
+  margin-top: 70px;
 }
 
-.main-container h1 {
-  color: rgb(148, 83, 83);
+.main-container h1,
+h3 {
+  color: rgb(118, 118, 117);
   text-align: center;
   font-weight: 200;
   letter-spacing: 2px;
-  margin-top: 70px;
 }
 
 h2 {
@@ -19,6 +19,11 @@ h2 {
   text-align: center;
   padding-bottom: 25px;
   letter-spacing: 2px;
+}
+
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
 }
 
 .paragraph {
@@ -32,16 +37,38 @@ p {
 }
 
 p:last-child  {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 h2 a {
   text-decoration: none;
-  color: rgb(240, 150, 85);
-  font-weight: bold;
+  color: rgb(221, 20, 8);
+  font-size: 0.9em;
 }
 
 h2 a:hover {
-  color: rgb(202, 90, 9);
+  color: rgb(232, 130, 116);
   border-bottom: 1px solid;
+}
+
+.main-container img {
+  margin: 0 auto 30px;
+  display: block;
+  border-radius: 5px;
+  width: 40%;
+}
+
+
+
+
+@media (min-width: 1025px) {
+  .main-container {
+    width: 75%;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 1.7em;
+  }
 }

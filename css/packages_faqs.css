@@ -9,11 +9,11 @@
 
 .main-container hr {
   width: 100%;
-  border-bottom: 1px solid rgb(255, 155, 0);
+  border-bottom: 1px solid rgb(234, 233, 231);
 }
 
 .main-container h1 {
-  color: rgb(148, 83, 83);
+  color: rgb(118, 118, 117);
   text-align: center;
   font-weight: 200;
   letter-spacing: 2px;
@@ -21,8 +21,9 @@
 }
 
 h2 {
-  color: rgb(160, 153, 78);
+  color: rgb(218, 127, 51);
   font-size: 1.3em;
+  font-family: 'Raleway', sans-serif;
 }
 
 p {
@@ -35,12 +36,12 @@ p:last-child  {
 
 p a {
   text-decoration: none;
-  color: rgb(240, 150, 85);
+  color: rgb(218, 127, 51);
   font-weight: bold;
 }
 
 p a:hover {
-  color: rgb(202, 90, 9);
+  color: rgb(221, 20, 8);
   border-bottom: 1px solid;
 }
 
@@ -48,7 +49,7 @@ p a:hover {
 
 h3 {
   margin-top: 40px;
-  color: rgb(208, 152, 112);
+  color: rgb(119, 117, 117);
   font-size: 1.1em;
 }
 

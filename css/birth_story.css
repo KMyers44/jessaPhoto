@@ -28,7 +28,6 @@
 }
 
 .story:hover {
-  box-shadow: 1px 1px 3px 2px darkgray;
   border-radius: 5px;
   transform: scale(1.1);
   transition: .2s ease;

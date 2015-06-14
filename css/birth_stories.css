@@ -14,8 +14,8 @@
 
 h2 {
   letter-spacing: 2px;
-  /*font-size: 1.3em;*/
-  color: rgb(160, 153, 78);
+  font-family: 'Raleway', sans-serif;
+  color: rgb(221, 20, 8);
   text-align: center;
 }
 
