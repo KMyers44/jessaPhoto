@@ -1,0 +1,56 @@
+
+.wrapper {
+  overflow: scroll;
+}
+
+.main-container {
+  width: 85%;
+  margin: 30px auto;
+  color: rgb(69, 69, 69);
+}
+
+#main {
+  float: right;
+  width: 60%;
+}
+
+#sidebar {
+  float: left;
+  width: 35%;
+}
+
+#sidebar p {
+  margin: 5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: rgb(121, 121, 121);
+  font-weight: 300;
+}
+
+#sidebar p:last-child {
+  margin-bottom: 50px;
+}
+
+a {
+  color: rgb(218, 127, 51);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(221, 20, 8);
+}
+
+h2 {
+  font-size: 1.3em;
+  color: rgb(118, 114, 114);
+}
+
+h4 {
+    margin: 30px 0 10px;
+}
+
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.1em;
+  }
+}

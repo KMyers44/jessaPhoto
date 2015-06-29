@@ -54,3 +54,15 @@ h3 {
 }
 
 
+
+@media (max-width: 767px) {
+  .main-container h1 {
+    margin: 30px auto 10px;
+    width: 85%;
+    font-size: 1.7em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+}

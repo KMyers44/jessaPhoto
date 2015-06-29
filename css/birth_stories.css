@@ -17,6 +17,7 @@ h2 {
   font-family: 'Raleway', sans-serif;
   color: rgb(221, 20, 8);
   text-align: center;
+  padding-top: 20px;
 }
 
 p {
@@ -28,14 +29,38 @@ p:last-child {
   padding-bottom: 40px;
 }
 
-/*.flexslider {
-  width: 800px;
-  height: auto;
-  margin: 0 auto;
-  text-align: center;
+
+/* Trying styles for slideshow*/
+
+#slider1_container {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 600px;
+  height: 300px;
+  margin: 35px auto;
+  box-shadow: 0px 0px 25px 0px rgb(152, 152, 152);
 }
 
 .slides {
-  padding-left: 0;
+  cursor: move;
+  position: absolute;
+  overflow: hidden;
+  left: 0px;
+  top: 0px;
+  width: 600px;
+  height: 300px;
 }
-*/
+
+/* arrows left and right */
+.jssora01l {
+  top: 123px;
+  left: 8px;
+}
+.jssora01r {
+  top: 123px;
+  right: 8px;
+}
+
+
+

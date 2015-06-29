@@ -58,7 +58,12 @@ p {
 }
 
 
-
+@media (max-width: 768px) {
+  h3 {
+    margin: 0 auto;
+    font-size: 1.8em;
+  }
+}
 
 
 

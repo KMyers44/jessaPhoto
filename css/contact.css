@@ -61,14 +61,29 @@ h2 a:hover {
 
 
 
-@media (min-width: 1025px) {
+
+
+@media (max-width: 767px) {
   .main-container {
-    width: 75%;
+    margin-top: 30px;
+    font-size: 0.9em;
+  }
+
+  h1 {
+    font-size: 1.7em;
+  }
+
+  p:last-child {
+    padding-bottom: 15px;
+  }
+
+  .main-container img {
+    width: 45%;
   }
 }
 
-@media (max-width: 767px) {
-  h1 {
-    font-size: 1.7em;
+@media (min-width: 1025px) {
+  .main-container {
+    width: 75%;
   }
 }

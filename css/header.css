@@ -17,19 +17,6 @@ body {
   width: 100%;
 }
 
-/*img#logo-star  {
-    margin: 10px 0 0 10px;
-    width: 32%;
-}
-
-img#logo-name {
-  float: right;
-  width: 60%;
-  position: relative;
-  width: 45%;
-  padding: 65px 181px 0 0;
-}*/
-
 img#logo1 {
   width: 83%;
   margin: 0 auto;
@@ -37,8 +24,8 @@ img#logo1 {
 }
 
 
-/* header and navbar */
 
+/* header and navbar */
 .menu {
   text-transform: uppercase;
   clear: both;
@@ -119,7 +106,9 @@ hr {
   margin-top: -3px;
 }
 
-/* menu icon */
+
+
+/* menu icon and dropdown */
 .menu-selector {
   float: right;
   padding: 10px 25px 0 0;
@@ -130,6 +119,7 @@ hr {
   text-decoration: none;
   text-transform: uppercase;
   color: rgb(69, 69, 69);
+  font-size: 0.9em;
 }
 
 .border-menu {
@@ -148,6 +138,28 @@ hr {
   border-bottom: 0.125em solid #000;
 }
 
+.menu-bar-container {
+  background-color: rgb(234, 233, 231);
+  padding: 15px;
+  list-style-type: none;
+}
+
+.menu-bar-container li {
+  padding: 10px 5px;
+  list-style: none;
+}
+
+.menu-bar a:hover {
+  color: rgb(144, 140, 140);
+}
+
+.menu-second-dropdown {
+  display: none;
+}
+
+
+
+
 /* ----- footer ----- */
 
 footer {
@@ -162,7 +174,6 @@ footer p {
 
 p.qoute {
   font-style: italic;
-
 }
 
 p.author {

@@ -10,12 +10,10 @@
     <link href='http://fonts.googleapis.com/css?family=Lato|Raleway' rel='stylesheet' type='text/css'>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
   </head>
 
 
   <body>
-
     <div class="wrapper">
 
     <!-- header and navbar -->
@@ -23,30 +21,33 @@
         <div class="menu-selector">
           <a href="#menu">Menu</a>
           <span class="border-menu"</span>
-        </div>
 
-        <div class="logo">
-          <!-- <img id="logo-star" src="images/LogoStar.jpg" alt="logo">
-          <img id="logo-name" src="images/LogoName.jpg" alt="Morning Star"> -->
-          <img id="logo1" src="images/logo-final.jpg">
-        </div>
-        <!-- <div class="navbar">
-          <ul class="menu">
+        <!-- menu dropdown -->
+          <ul class="menu-bar-container">
             <li><a href="index.html">Home</a></li>
-            <li><a href="birth_stories.html">Birth Stories</a></li>
-            <li><a href="packages.html">Packages</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="faqs.html">FAQ's</a></li>
-            <li><a href="#">Yoga</a></li>
-            <li class="blog"><a href="#">Blog</a>
-              <ul class="blog_dropdown">
+            <li class="menu-birth-photo"><a href="#">Birth Photography</a>
+              <ul class="menu-second-dropdown">
+                <li><a href="birth_stories.html">Birth Stories</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="faqs.html">FAQ's</a></li>
+              </ul>
+            </li>
+            <li><a href="yoga.html">Yoga</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="menu-blog"><a href="#">Blog</a>
+              <ul class="menu-second-dropdown">
                 <li><a href="http://jessabuchalter.blogspot.com" target="_blank">Photography</a></li>
                 <li><a href="http://livelovelaughyoga108.blogspot.com" target="_blank">Yoga</a></li>
               </ul>
             </li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
-        </div> -->
+        </div>
+        <!-- end menu dropdown -->
+
+        <div class="logo">
+          <img id="logo1" src="images/logo-final.jpg">
+        </div>
 
         <div class="navbar">
           <ul class="menu">
@@ -58,7 +59,7 @@
                 <li><a href="faqs.html">FAQ's</a></li>
               </ul>
             </li>
-            <li><a href="#">Yoga</a></li>
+            <li><a href="yoga.html">Yoga</a></li>
             <li><a href="about.html">About</a></li>
             <li class="blog"><a href="#">Blog</a>
               <ul class="blog-dropdown">
@@ -71,15 +72,60 @@
         </div>
         <hr>
       </div>
+  <!-- end header and navbar -->
 
 
-      <!-- main -->
-
+  <!-- main -->
       <div class="main">
         <div class="inner-container">
 
-          <div class="image">
-            <img src="images/Slideshow13.jpg">
+          <div id="slider1_container">
+          <!-- Slides Container -->
+              <div u="slides" class="slides">
+                <div><img u="image" class="image" src="images/Slideshow13.jpg" /></div>
+                <div><img u="image" class="image" src="images/slideshow01.jpg" /></div>
+                <div><img u="image" class="image" src="images/Slideshow02.jpg" /></div>
+                <div><img u="image" class="image" src="images/Slideshow03.jpg" /></div>
+                <div><img u="image" class="image" src="images/slideshow06.jpg" /></div>
+                <div><img u="image" class="image" src="images/Slideshow07.jpg" /></div>
+              </div>
+
+              <!--#region Arrow Navigator Skin Begin -->
+              <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-jquery.html -->
+              <style>
+                  /* jssor slider arrow navigator skin 01 css */
+                  /*
+                  .jssora01l                  (normal)
+                  .jssora01r                  (normal)
+                  .jssora01l:hover            (normal mouseover)
+                  .jssora01r:hover            (normal mouseover)
+                  .jssora01l.jssora01ldn      (mousedown)
+                  .jssora01r.jssora01rdn      (mousedown)
+                  */
+                  .jssora01l, .jssora01r {
+                      display: block;
+                      position: absolute;
+                      /* size of arrow element */
+                      width: 45px;
+                      height: 45px;
+                      cursor: pointer;
+                      background: url(images/a01.png) no-repeat;
+                      overflow: hidden;
+                  }
+                  .jssora01l { background-position: -8px -38px; }
+                  .jssora01r { background-position: -68px -38px; }
+
+                  .jssora01l:hover { background-position: -128px -38px; }
+                  .jssora01r:hover { background-position: -188px -38px; }
+                  .jssora01l.jssora01ldn { background-position: -8px -38px; }
+                  .jssora01r.jssora01rdn { background-position: -68px -38px; }
+              </style>
+              <!-- Arrow Left -->
+              <span u="arrowleft" class="jssora01l">
+              </span>
+              <!-- Arrow Right -->
+              <span u="arrowright" class="jssora01r">
+              </span>
           </div>
 
 
@@ -104,6 +150,7 @@
         </div>
       </div>
 
+      </div>
     </div>
 
     <footer>
@@ -112,10 +159,9 @@
     </footer>
 
 
-
-
-
-
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="jssor.slider.mini.js"></script>
+  <script src ="js/script.js"></script>
 
 
 
