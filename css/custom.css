@@ -1,8 +1,3 @@
-/* include header.css */
-
-
-
-/* main */
 
 
 .main {
@@ -15,9 +10,9 @@
   margin: 0 auto;
 }
 
-h3 {
+.congrats h3 {
   letter-spacing: 3px;
-  font-size: 1.4em;
+  font-size: 1.6em;
   color: rgb(221, 20, 8);
   text-align: center;
   margin: 40px 0 30px;
@@ -29,9 +24,13 @@ h3 {
   padding-bottom: 40px;
 }
 
-p {
+.congrats p {
   color: rgb(69, 69, 69);
   text-align: justify;
+  width: 85%;
+  margin: 0 auto;
+  padding: 10px 0;
+  line-height: 1.5;
 }
 
 .emphasis {
@@ -42,6 +41,8 @@ p {
   padding: 20px;
   letter-spacing: 2px;
   font-family: 'Raleway', sans-serif;
+  width: 80%;
+  margin: 0 auto;
 }
 
 p:last-child {
@@ -58,6 +59,7 @@ p:last-child {
   height: 300px;
   margin: 0 auto;
   box-shadow: 0px 0px 25px 0px rgb(152, 152, 152);
+  /*box-shadow: 0 6px 12px rgba(0,0,0,.175);*/
 }
 
 .slides {
@@ -111,12 +113,17 @@ p:last-child {
 
 
 @media (max-width: 767px) {
-
   .main {
     margin-top: 25px;
   }
-
   .emphasis {
-    padding: 5px;
+    padding: 5px 0;
+  }
+  .congrats h3 {
+    margin: 35px 0 5px;
+    letter-spacing: 0;
+  }
+  .congrats p {
+    width: 100%;
   }
 }

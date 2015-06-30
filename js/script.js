@@ -40,29 +40,66 @@ jQuery(document).ready(function ($) {
     $(window).bind("orientationchange", ScaleSlider);
     //responsive code end
 
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+
+    //for menu experiment
+
+
+
+
+
+
+    /*$('#menu2').slicknav({
+      label: '',
+      duration: 1000,
+      easingOpen: "easeOutBounce", //available with jQuery UI
+      prependTo:'#demo2'
+    });
+*/
+
+  // Dropdown Menu
+/*var dropdown = document.querySelectorAll('.dropdown');
+var dropdownArray = Array.prototype.slice.call(dropdown,0);
+dropdownArray.forEach(function(el){
+  var button = el.querySelector('a[data-toggle="dropdown"]'),
+      menu = el.querySelector('.dropdown-menu'),
+      arrow = button.querySelector('i.icon-arrow');
+
+  button.onclick = function(event) {
+    if(!menu.hasClass('show')) {
+      menu.classList.add('show');
+      menu.classList.remove('hide');
+      arrow.classList.add('open');
+      arrow.classList.remove('close');
+      event.preventDefault();
+    }
+    else {
+      menu.classList.remove('show');
+      menu.classList.add('hide');
+      arrow.classList.remove('open');
+      arrow.classList.add('close');
+      event.preventDefault();
+    }
+  };
+})
+
+Element.prototype.hasClass = function(className) {
+    return this.className && new RegExp("(^|\\s)" + className + "(\\s|$)").test(this.className);
+};
+*/
 });
 
 
 
 
 
-// page transitions
-  // var main = $('.main');
 
-  // main.css('display', 'none');
 
-  // main.fadeIn(500);
 
-  // $('a.transition').click(function(event){
-  //     event.preventDefault();
-  //     linkLocation = this.href;
-  //     main.fadeOut(400, redirectPage);
-  // });
-
-  // function redirectPage() {
-  //     window.location = linkLocation;
-  // }
-
-// });
-
-// });

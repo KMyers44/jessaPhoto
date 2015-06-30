@@ -1,8 +1,4 @@
-/* include header.css */
 
-
-
-/* main */
 
 .inner-container {
   width: 85%;
@@ -28,7 +24,7 @@
   width: 100%;
 }
 
-h3 {
+.main h3 {
   letter-spacing: 2px;
   font-size: 2.3em;
   color: rgb(118, 118, 117) ;
@@ -38,7 +34,7 @@ h3 {
   font-family: 'Raleway', sans-serif;
 }
 
-p {
+.jessa p {
   line-height: 1.4;
   text-align: justify;
   color: rgb(69, 69, 69);
@@ -51,17 +47,20 @@ p {
 
 .flex {
   display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
   margin: 30px;
-
 }
 
 
 @media (max-width: 768px) {
-  h3 {
-    margin: 0 auto;
-    font-size: 1.8em;
+  .main h3 {
+    margin: 0px auto 10px;
+    font-size: 2.1em;
+  }
+  .jessa p {
+    padding: 5px 0;
+    line-height: 1.5;
   }
 }
 

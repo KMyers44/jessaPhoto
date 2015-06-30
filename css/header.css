@@ -1,6 +1,7 @@
-body {
-  background-color: #EAE9E7;
-  font-family: 'Lato', sans-serif;
+.body {
+  background-color: #F2F2F2;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4em;
 }
 
 .wrapper {
@@ -14,13 +15,14 @@ body {
 .logo {
   float: left;
   padding-bottom: 15px;
-  width: 100%;
+  width: 90%;
 }
 
 img#logo1 {
   width: 83%;
   margin: 0 auto;
   display: block;
+  float: right;
 }
 
 
@@ -38,13 +40,13 @@ img#logo1 {
 .menu li {
   display: inline-block;
   padding: 0 20px 10px;
-  font-size: 0.9em;
   letter-spacing: 1px;
 }
 
 .menu li a {
   text-decoration: none;
   color: rgb(218, 127, 51);
+  font-size: 1.1em;
 }
 
 .navbar a:hover {
@@ -59,7 +61,7 @@ img#logo1 {
 .blog:after,
 .photo:after {
   content: "\25bc";
-  font-size: 0.3em;
+  font-size: 0.7em;
   display: block;
   position: absolute;
   top: 15%;
@@ -149,7 +151,7 @@ hr {
   list-style: none;
 }
 
-.menu-bar a:hover {
+.menu-bar-container a:hover {
   color: rgb(144, 140, 140);
 }
 
@@ -186,23 +188,16 @@ p.author {
 
 
 @media (max-width: 767px) {
+  img#logo1 {
+    width: 90%;
+  }
   .menu li {
     padding: 0px 10px 10px;
     font-size: 0.7em;
   }
-
-  /*img#logo-name {
-    position: relative;
-    width: 45%;
-    margin: 43px auto;
-    padding: 5px 85px 0 0;
-    display: inline-block;
-  }
-*/
   .menu {
     display: none;
   }
-
   .menu-selector {
     display: block;
   }
@@ -210,43 +205,27 @@ p.author {
 
 
 @media (min-width: 768px) {
-  /*img#logo-star {
-    width: 30%;
-  }
-
-  img#logo-name {
-    width: 45%;
-    padding: 45px 140px 0 0;
-  }*/
-  img#logo1 {
-    width: 70%;
-  }
-
   .menu {
     width: 90%
   }
-
   .menu li {
     font-size: 0.8em;
   }
+  .logo {
+    width: 90%;
+  }
 }
 
+
 @media (min-width: 979px) {
-  /*img#logo-star {
-    width: 30%;
-  }
-
-  img#logo-name {
-    width: 45%;
-    padding: 55px 181px 0 0;
-    }*/
-
-  img#logo1 {
-    width: 60%;
-  }
-
   .menu {
     width: 80%;
+  }
+  .logo {
+    width: 80%;
+  }
+  img#logo1 {
+    float: right;
   }
 }
 

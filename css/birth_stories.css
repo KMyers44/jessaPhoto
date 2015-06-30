@@ -6,13 +6,7 @@
   margin: 20px auto;
 }
 
-/*img.story_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}*/
-
-h2 {
+.story-container h2 {
   letter-spacing: 2px;
   font-family: 'Raleway', sans-serif;
   color: rgb(221, 20, 8);
@@ -20,25 +14,26 @@ h2 {
   padding-top: 20px;
 }
 
-p {
+.story-container p {
   color: rgb(69, 69, 69);
   text-align: justify;
+  line-height: 1.5;
+  padding: 10px 0 0;
 }
 
-p:last-child {
+.story-container p:last-child {
   padding-bottom: 40px;
 }
 
 
-/* Trying styles for slideshow*/
-
+/* slideshow */
 #slider1_container {
   position: relative;
   top: 0px;
   left: 0px;
   width: 600px;
   height: 300px;
-  margin: 35px auto;
+  margin: 45px auto 35px;
   box-shadow: 0px 0px 25px 0px rgb(152, 152, 152);
 }
 
@@ -52,7 +47,7 @@ p:last-child {
   height: 300px;
 }
 
-/* arrows left and right */
+/* arrows left and right on slideshow*/
 .jssora01l {
   top: 123px;
   left: 8px;
@@ -63,4 +58,10 @@ p:last-child {
 }
 
 
+@media (max-width: 767px) {
+  .story-container h2 {
+    font-size: 1.5em;
+    padding: 0;
+  }
+}
 

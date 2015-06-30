@@ -3,25 +3,48 @@
   <head>
     <title>Packages - Mountain Star</title>
 
-    <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" href="css/packages_faqs.css">
-
     <!-- Google fonts 'Raleway' and 'Lato' -->
     <link href='http://fonts.googleapis.com/css?family=Lato|Raleway' rel='stylesheet' type='text/css'>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/menu-dropdown.css">
+    <link rel="stylesheet" type="text/css" href="css/packages_faqs.css">
   </head>
 
 
-  <body>
+  <body class="body">
     <div class="wrapper">
 
     <!-- header and navbar -->
       <div class="header">
-        <div class="menu-selector">
-          <a href="#menu">Menu</a>
-          <span class="border-menu"</span>
+        <!-- menu dropdown for smaller devices-->
+         <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Menu
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="birth_stories.html">Birth Stories</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="faqs.html">FAQ's</a></li>
+            <li><a href="yoga.html">Yoga</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="http://jessabuchalter.blogspot.com" target="_blank">Blog - Photography</a></li>
+            <li><a href="http://livelovelaughyoga108.blogspot.com" target="_blank">Blog - Yoga</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
+      <!-- end menu dropdown -->
 
+      <!-- logo image and navbar menu for larger screens -->
         <div class="logo">
           <img id="logo1" src="images/logo-final.jpg">
         </div>

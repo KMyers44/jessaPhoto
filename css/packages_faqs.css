@@ -2,7 +2,7 @@
 
 
 .main-container {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
   color: rgb(69, 69, 69);
 }
@@ -15,53 +15,57 @@
 .main-container h1 {
   color: rgb(118, 118, 117);
   text-align: center;
-  font-weight: 200;
   letter-spacing: 2px;
-  margin-top: 70px;
+  margin-top: 40px;
+  font-size: 2.1em;
 }
 
-h2 {
+.main-container h2 {
   color: rgb(218, 127, 51);
   font-size: 1.3em;
   font-family: 'Raleway', sans-serif;
+  padding-bottom: 10px;
+
 }
 
-p {
+.main-container p {
   text-align: justify;
 }
 
-p:last-child  {
+.main-container p:last-child  {
   padding-bottom: 50px;
 }
 
-p a {
+.main-container p a {
   text-decoration: none;
   color: rgb(218, 127, 51);
   font-weight: bold;
 }
 
-p a:hover {
+.main-container p a:hover {
   color: rgb(221, 20, 8);
   border-bottom: 1px solid;
 }
 
 /* packages specific */
 
-h3 {
+.main-container h3 {
   margin-top: 40px;
   color: rgb(119, 117, 117);
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 
 
 @media (max-width: 767px) {
-  .main-container h1 {
-    margin: 30px auto 10px;
+  .main-container {
     width: 85%;
-    font-size: 1.7em;
   }
-
+  .main-container h1 {
+    margin: 0 auto;
+    width: 85%;
+    font-size: 1.5em;
+  }
   h2 {
     font-size: 1.2em;
   }

@@ -14,13 +14,21 @@
   width: 60%;
 }
 
+#main img {
+  vertical-align: middle;
+  display: block;
+  margin: 50px auto;
+  width: 65%;
+  border-radius: 5px;
+}
+
 #sidebar {
   float: left;
   width: 35%;
 }
 
 #sidebar p {
-  margin: 5px;
+  margin: 10px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: rgb(121, 121, 121);
   font-weight: 300;
@@ -30,27 +38,41 @@
   margin-bottom: 50px;
 }
 
-a {
+#sidebar a {
   color: rgb(218, 127, 51);
   text-decoration: none;
 }
 
-a:hover {
+#sidebar a:hover {
   color: rgb(221, 20, 8);
 }
 
-h2 {
+#main h2 {
   font-size: 1.3em;
   color: rgb(118, 114, 114);
 }
 
-h4 {
+#sidebar h4 {
     margin: 30px 0 10px;
 }
 
 
+
+
 @media (max-width: 768px) {
-  h2 {
+  #main h2 {
     font-size: 1.1em;
+  }
+
+  #sidebar {
+    font-size: 0.8em;
+  }
+
+  #sidebar h3 {
+    font-size: 1.7em;
+  }
+
+  #sidebar h4 {
+    font-size: 1.2em;
   }
 }
