@@ -35,9 +35,10 @@
 }
 
 .jessa p {
-  line-height: 1.4;
+  line-height: 1.5;
   text-align: justify;
   color: rgb(69, 69, 69);
+  margin: 0 0 15px;
 }
 
 .bottom-image img {
