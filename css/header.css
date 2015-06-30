@@ -201,6 +201,9 @@ p.author {
   .menu-selector {
     display: block;
   }
+  footer {
+    width: 68%;
+  }
 }
 
 
